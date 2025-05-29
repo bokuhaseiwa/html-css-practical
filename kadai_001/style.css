@@ -1,0 +1,160 @@
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+#nav-pc ul {
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin: 10px 48px;
+    font-size: 34px;
+ }
+
+ #nav-pc ul p {
+    border:1px solid black;
+    
+ }
+
+#nav-a {
+    display: flex;
+    font-size: 34px;
+    color: #191919;
+    border: none; 
+}
+
+#nav-pc li a {
+  text-decoration: none;
+  margin: 20px;
+}
+
+#nav-pc li a:hover {
+    color:darkorchid;
+    opacity: 0.7; 
+}
+
+
+.wrappar {
+    display: flex;
+    width: 80%;
+    margin: 30px auto;
+}
+.wrappar img {
+  
+    width: 30%;
+    height: auto;
+    
+}
+.wrappar .prof {
+    width: 70%;
+    padding-left: 60px;
+}
+
+
+h2 {
+  text-align: center;
+  margin: 80px 0 80px 0;
+  font-size: 34px;
+}
+h3 {
+    font-size:24px;
+}
+
+.prof {
+  margin: 80px 0 0 30px;
+}
+.prof li {
+    font-size: 18px;
+}
+
+.Works {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.works-p img {
+    margin: 33px;
+    padding: 1px;
+    
+}
+.works-p p {
+    white-space: pre-wrap;
+    margin: 33px;
+    padding: 1px;
+    width: 240px;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    margin: 30px;
+}
+
+/*====================
+  スマートフォン用のスタイル
+ =====================*/
+ @media screen and (max-width: 767px) {
+
+#nav-pc li a {
+  text-decoration: none;
+  margin: 8px;
+}
+#nav-pc ul p {
+    font-size: 16px;
+    margin: 20px;
+}
+#nav-pc ul li a {
+    font-size: 16px;
+}
+
+.prof h3 {
+    text-align: center;
+}
+
+.prof ul {
+ width: 100%;
+}
+
+.prof li {
+  font-size: 16px;
+  
+}
+
+.Works { 
+  display: block;  
+}
+
+.works-p img  {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+.works-p p  {
+ margin-left: auto;
+ margin-right: auto;
+}
+
+ }
+ @media screen and (max-width: 928px) {
+
+.wrappar {
+    display: block; 
+    width: 100%;
+}
+
+.wrappar img {
+    width: 50%;
+   
+    margin: auto;
+}
+.wrappar .prof {
+    width: 60%;
+    
+    margin: 30px auto 0;
+    padding: 12px;
+}
+.wrappar ul {
+    padding: 0 0 0 40px;
+}
+ }
